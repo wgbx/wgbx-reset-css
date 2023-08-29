@@ -1,0 +1,20 @@
+{
+  "name": "wgbx-css-reset",
+  "version": "0.0.2",
+  "description": "CSS reset for web development",
+  "keywords": [
+    "css reset",
+    "wgbx css reset"
+  ],
+  "main": "./dist/reset.min.css",
+  "scripts": {
+    "build": "rollup --config ./rollup.config.mjs"
+  },
+  "author": "微光北下",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.21.5",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.66.1"
+  }
+}
