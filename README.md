@@ -1,6 +1,8 @@
 
 <h2 align="center">wgbx CSS reset</h2>
+
 ### Installation
+
 NPM：
 ```bash
 npm install wgbx-reset-css
