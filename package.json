@@ -1,11 +1,14 @@
 {
-  "name": "wgbx-css-reset",
-  "version": "0.0.2",
+  "name": "@wgbx/reset-css",
+  "version": "0.0.1",
   "description": "CSS reset for web development",
   "keywords": [
     "css reset",
     "wgbx css reset"
   ],
+  "publishConfig": {
+    "@wgbx:registry": "https://npm.pkg.github.com"
+  },
   "main": "./dist/reset.min.css",
   "scripts": {
     "build": "rollup --config ./rollup.config.mjs"
